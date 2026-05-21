@@ -1,0 +1,12 @@
+# Core ML stack (pick torch wheel matching your CUDA/CPU from https://pytorch.org if needed)
+torch
+torchvision
+transformers>=4.30.0
+numpy>=1.22
+scikit-learn>=1.2
+streamlit>=1.28
+
+# Audio / vision
+librosa>=0.10
+opencv-python>=4.8
+sounddevice>=0.5
