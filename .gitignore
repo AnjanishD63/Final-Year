@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+venv/
+
+# Generated synthetic corpus + checkpoints
+features/
+*.pt
+
+# Jupyter + tooling noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS / IDE
+.DS_Store

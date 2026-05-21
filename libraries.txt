@@ -1,7 +1,5 @@
-pip install torch torchvision torchaudio
+Use `requirements.txt` instead:
 
-pip install transformers
+    pip install -r requirements.txt
 
-pip install librosa sounddevice opencv-python
-
-pip install numpy scikit-learn
+For GPU-specific Torch wheels replace the transitive install with pinned builds from pytorch.org once this command finishes.
